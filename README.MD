@@ -167,7 +167,7 @@ void loop()
 | ----------------- | -----------------------------------------|
 | begin()           | Initialize the VEML7700 sensor           |
 | readLux()         | Read the ambient light measurement in lux|
-| configure()       | Return the last calculated temperature   |
+| configure()       |Configure sensor gain and integration time|
 
 
 
