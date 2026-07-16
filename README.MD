@@ -45,9 +45,10 @@ The following modules are part of the *I2Connect* Series:
 * Ambient light measurements in lux (lx)
 * Compatible with both 3.3 V and 5 V systems
 * Fixed 0x10 I2C address
-* Dual Qwiic® compatible connectors (4 pin, 1 mm JST SH)
+* Dual Qwiic® compatible connectors (4 pin, 1 mm JST SH) for daisy-chaining.
 * Breadboard friendly right angle male header
 * Dedicated software library for easy configuration and reading
+* Integrated power LED with a physical disconnect pad on the rear.
 
 ---
 
