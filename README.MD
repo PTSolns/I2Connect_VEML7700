@@ -88,8 +88,11 @@ For maximum compatibility, the module also includes a preinstalled angled male h
 
 ## Address Selection
 
-The *I2Connect: VEML7700* module uses a fixed I2C address of `0x10`. 
+The *I2Connect: VEML7700* module uses a fixed I2C address of:
 
+```text
+0x10
+```
 This address cannot be modified. If multiple VEML7700 modules are required in the same system, an I2C multiplexer must be used. The PTSolns *I2Connect: MUX* module provides four independent I2C channels, allowing up to four VEML7700 modules with the same fixed I2C address to be connected to a single microcontroller.
 
 ---
