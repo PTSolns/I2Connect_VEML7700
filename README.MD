@@ -192,3 +192,32 @@ void loop()
 | 01_BasicLuxRead        | Device initialization and reading ambient light data|
 | 02_SensorDetection     | Demonstrates I2C sensor detection on the bus        |
 | 03_AdvancedConfig      | Configuring integration time and gain settings      |
+
+---
+
+
+## Documentation & Resources
+
+Additional resources are available through the PTSolns Documentation Repository, including:
+
+* Datasheets
+
+* Schematics
+
+* Pinout diagrams
+
+* 3D models
+
+* Fritzing files
+
+* Tutorials
+
+* Example projects
+
+* [PTSolns Documentation Repository](https://docs.ptsolns.com)
+
+* [PTSolns Website](https://ptsolns.com)
+
+* [Contact Support](https://ptsolns.com/contact-us)
+
+* [PTSolns IDE](https://ptsolns.com/ide)
