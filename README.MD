@@ -111,3 +111,19 @@ To install:
 
 ```text
 I2Connect_VEML7700
+```
+4. Click Install.
+
+Features of the [*PTSolns IDE*](https://ptsolns.com/ide) include:
+
+* Integrated board management
+* Built in serial monitor
+* Library management
+* Example project browser
+* Support for over 8,500 third party libraries
+* Built in CH340 USB driver support
+* Open source and community driven
+
+The [*PTSolns IDE*](https://ptsolns.com/ide) can be used alongside the Arduino IDE and supports many PTSolns development boards out of the box.
+
+---
