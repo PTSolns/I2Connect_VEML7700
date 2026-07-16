@@ -127,3 +127,68 @@ Features of the [*PTSolns IDE*](https://ptsolns.com/ide) include:
 The [*PTSolns IDE*](https://ptsolns.com/ide) can be used alongside the Arduino IDE and supports many PTSolns development boards out of the box.
 
 ---
+
+## Quick Start
+
+```cpp
+#include <Wire.h>
+#include <PTSolns_I2Connect_VEML7700.h>
+
+PTSolns_I2Connect_VEML7700 lightSensor;
+
+void setup()
+{
+    Serial.begin(115200);
+
+    Wire.begin();
+
+    // Initialize the VEML7700 sensor
+    lightSensor.begin();
+}
+
+void loop()
+{
+    // Read the ambient light in lux
+    float luxValue = lightSensor.readLux();
+
+    Serial.print("Ambient Light: ");
+    Serial.print(luxValue);
+    Serial.println(" lx");
+
+    delay(1000);
+}
+```
+
+---
+
+## Library Functions
+
+| Function          | Description                              |
+| ----------------- | -----------------------------------------|
+| begin()           | Initialize the VEML7700 sensor           |
+| readLux()         | Read the ambient light measurement in lux|
+| configure()       | Return the last calculated temperature   |
+
+
+
+---
+
+## Typical Applications
+
+
+* Automatic display brightness control
+* Smart lighting systems
+* Day and night detection
+* Weather stations
+* Environmental monitoring systems
+* General purpose data acquisition projects
+
+---
+
+## Included Examples
+
+| Example                | Description                                         |
+| ---------------------- | ----------------------------------------------------|
+| 01_BasicLuxRead        | Device initialization and reading ambient light data|
+| 02_SensorDetection     | Demonstrates I2C sensor detection on the bus        |
+| 03_AdvancedConfig      | Configuring integration time and gain settings      |
